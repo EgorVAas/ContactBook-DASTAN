@@ -1,0 +1,76 @@
+/* Общие стили */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  background-image: url(https://rare-gallery.com/uploads/posts/962537-car-vehicle-artwork-sky-black-cars-Nissan-Skyline-R32.jpg);
+}
+
+/* Контейнер */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Заголовок */
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+
+/* Форма добавления контакта */
+
+.form {
+  margin-bottom: 30px;
+  /* background-color: #fff; */
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  padding: 20px;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #6c757d;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #007bff;
+}
